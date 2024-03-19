@@ -1,5 +1,10 @@
 # Projeto de IoT
 
+### Alunos: 
+- Ismael Marinho
+- José Roberto
+- Lavoisier Chaves
+
 ### Nome do projeto: Controle de garagem
 
 ## Objetivos

@@ -7,10 +7,10 @@ Desenvolver um sistema para uma casa inteligente automatizada e conectada visand
 ### Funcionalidades
 Automatizar a abertura e o fechamento de um portão de garagem que, através de sensores, emitirá para uma plataforma móvel o estado em que se encontra o portão para que seja tomada a decisão pelo usuário de abrir, fechar ou deixar o portão no estado em que se encontra. Ainda sendo possível detectar quem o acionou.
 
-### Controla: Fluxo de entrada e saída da garagem
+### Controla: Fluxo de entrada e saída da garagem.
 ### Monitoria: Estado do portão (aberto/fechado), com segurança.
 ## Arquitetura: Centralizada
-Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplicação  
+Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplicação, facilitando o monitoramento e o controle do dispostivo IoT.  
 ![Arquitetura](arquitetura.png)
 ### Protocolo: MQTT
 ### Microcontrolador: ESP32

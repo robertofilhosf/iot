@@ -12,7 +12,14 @@ Automatizar a abertura e o fechamento de um portão de garagem que, através de 
 ## Arquitetura: Centralizada
 Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplicação, facilitando o monitoramento e o controle do dispostivo IoT.  
 ![Arquitetura](arquitetura.png)
-### Protocolo: MQTT
+### Lista de Dispositivos IoT
+- Sensor de abertura de porta
+- Atuador de contato seco
+- Sensor de movimento
+- ESP32
+
+### Protocolo: MQTT (Message Queuing Telemetry Transport)
+Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e assíncrona.
 ### Microcontrolador: ESP32
 ## Aplicação: ESP RainMaker
 

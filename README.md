@@ -11,7 +11,7 @@ Automatizar a abertura e o fechamento de um portão de garagem que, através de 
 ### Monitoria: Estado do portão (aberto/fechado), com segurança.
 ## Arquitetura: Centralizada
 Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplicação  
-![Arquitetura](Diagrama em branco.png)
+![Arquitetura](arquitetura.png)
 ### Protocolo: MQTT
 ### Microcontrolador: ESP32
 ## Aplicação: ESP RainMaker

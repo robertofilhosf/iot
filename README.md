@@ -1,6 +1,6 @@
-# Projeto de IoT
-
-'''# Controle de garagem'''
+<p align="center" ><b>
+Controle de garagem
+</b></p>
 
 ## Objetivos
 Desenvolver um sistema para uma casa inteligente automatizada e conectada visando proporcionar conforto e segurança aos moradores desta residência.

@@ -1,6 +1,6 @@
 # Projeto de IoT
 
-### Nome do projeto: Controle de garagem
+'''# Controle de garagem'''
 
 ## Objetivos
 Desenvolver um sistema para uma casa inteligente automatizada e conectada visando proporcionar conforto e segurança aos moradores desta residência.
@@ -28,7 +28,7 @@ Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e ass�
 ## Aplicação: ESP RainMaker
 
 ### Equipe: 
-- Ismael Marinho
-- José Roberto
-- Lavoisier Chaves
+- Ismael Marinho - firespin147@gmail.com
+- José Roberto - robertoo52587@gmail.com
+- Lavoisier Chaves - lavoisier.ramos@academico.ifpb.edu.br
 

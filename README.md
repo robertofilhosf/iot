@@ -1,10 +1,5 @@
 # Projeto de IoT
 
-### Alunos: 
-- Ismael Marinho
-- José Roberto
-- Lavoisier Chaves
-
 ### Nome do projeto: Controle de garagem
 
 ## Objetivos
@@ -31,4 +26,9 @@ Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplic
 Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e assíncrona.
 ### Microcontrolador: ESP32
 ## Aplicação: ESP RainMaker
+
+### Equipe: 
+- Ismael Marinho
+- José Roberto
+- Lavoisier Chaves
 

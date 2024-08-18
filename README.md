@@ -34,7 +34,7 @@ Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e ass�
 
 O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/iot/blob/main/codigos/temperaturaHumidade.c)  
 
-![Nó de temperatura](./node_temp.png)
+![Nó de temperatura](./image/node_temp.png)
 
 O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o broker no caso o "broker.emqx.io", e publicar
 nos tópicos "IFPB/Iot/Projeto.Garagem/Temperatura" e "IFPB/Iot/Projeto.Garagem/Umidade", para que possa ser acompanhado
@@ -44,7 +44,7 @@ de perto pelo App Mobile.
 
 O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/iot/blob/main/codigos/portaoLuz.c)  
 
-![Nó do portão e luz](./node_gate.png)
+![Nó do portão e luz](./image/node_gate.png)
 
 O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o broker no caso o "broker.emqx.io", e receber
 através dos tópicos "IFPB/Iot/Projeto.Garagem/Atuador.Portao" e  "IFPB/Iot/Projeto.Garagem/Luz", e por eles
@@ -59,7 +59,25 @@ O App mobile foi utilizado para fazer a gerência e observação dos dados emiti
 O App utilizado foi o [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod&hl=en&pli=1), no 
 qual criamos um dashboard da seguinte maneira:
 
-![Nó do portão e luz](./dashboard.png)
+![Dashboard](./image/dashboard.png)
 
+### Configurando o botão de luz
 
+![Botão e luz](./image/light_button.png)
+
+### Configurando o gráfico de temperatura
+
+![Gráfico de temperatura](./image/temp_graphic.png)
+
+### Configurando o gráfico de humidade
+
+![Gráfico de humidade](./image/hum_graphic.png)
+
+### Configurando o sensor do portão(Aberto/Fechado)
+
+![Sensor do Portão](./image/gate_sensor.png)
+
+### Configurando o atuador do portão(Abrir/Fechar)
+
+![Atuador do Portão](./image/gate_act.png)
 

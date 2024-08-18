@@ -30,3 +30,36 @@ Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e ass�
 - José Roberto - robertoo52587@gmail.com
 - Lavoisier Chaves - lavoisier.ramos@academico.ifpb.edu.br
 
+## Implementação do nó de Temperatura e Humidade
+
+O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/iot/blob/main/codigos/temperaturaHumidade.c)  
+
+![Nó de temperatura](./node_temp.png)
+
+O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o broker no caso o "broker.emqx.io", e publicar
+nos tópicos "IFPB/Iot/Projeto.Garagem/Temperatura" e "IFPB/Iot/Projeto.Garagem/Umidade", para que possa ser acompanhado
+de perto pelo App Mobile.
+
+## Implementação do nó do Portão
+
+O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/iot/blob/main/codigos/portaoLuz.c)  
+
+![Nó do portão e luz](./node_gate.png)
+
+O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o broker no caso o "broker.emqx.io", e receber
+através dos tópicos "IFPB/Iot/Projeto.Garagem/Atuador.Portao" e  "IFPB/Iot/Projeto.Garagem/Luz", e por eles
+possam através do atuador, no caso o relé desligar a luz e fechar ou abrir o portão. Também por usar o sensor de proximidade
+ultrassonico é possível fazer o monitoramento de abertura do portão. No qual o código publica no tópico 
+"IFPB/Iot/Projeto.Garagem/Sensor.Portao".
+
+
+## App Mobile
+
+O App mobile foi utilizado para fazer a gerência e observação dos dados emitidos pelos nós.
+O App utilizado foi o [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod&hl=en&pli=1), no 
+qual criamos um dashboard da seguinte maneira:
+
+![Nó do portão e luz](./dashboard.png)
+
+
+

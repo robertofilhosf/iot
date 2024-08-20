@@ -13,7 +13,7 @@ Automatizar a abertura e o fechamento de um portão de garagem que, através de 
 ### Monitoria: Estado do portão (aberto/fechado), com segurança.
 ## Arquitetura: Centralizada
 Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplicação, facilitando o monitoramento e o controle do dispostivo IoT.  
-<img src="arquitetura.png" alt="arquiteture" width="600"/>
+<img src="./image/arquitetura.png" alt="arquiteture" width="600"/>
 ### Lista de Dispositivos IoT
 - Sensor de abertura de porta
 - Atuador de contato seco

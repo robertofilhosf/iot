@@ -27,7 +27,7 @@ Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e ass�
 
 ### Equipe: 
 - Ismael Marinho - firespin147@gmail.com
-- José Roberto - robertoo52587@gmail.com
+- José Roberto - ferreira.roberto@academico.ifpb.edu.br
 - Lavoisier Chaves - lavoisier.ramos@academico.ifpb.edu.br
 
 ## Implementação do nó de Temperatura e Humidade

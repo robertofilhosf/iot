@@ -1,4 +1,4 @@
-<h1 align="center" ><b>Controle de garagem</b></h1>
+<h1 align="center" ><b>Controle de Garagem</b></h1>
 
 ## Objetivos
 Desenvolver um sistema para uma casa inteligente automatizada e conectada visando proporcionar conforto e segurança aos moradores desta residência.

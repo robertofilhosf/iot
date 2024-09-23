@@ -46,6 +46,10 @@ O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/
 
 ![Nó do portão e luz](./image/node_gate.png)
 
+Esquemático elétrico
+
+![Nó do portão e luz](./image/esquematico_no_temp_umid.PNG)
+
 O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o broker no caso o "broker.emqx.io", e receber
 através dos tópicos "IFPB/Iot/Projeto.Garagem/Atuador.Portao" e  "IFPB/Iot/Projeto.Garagem/Luz", e por eles
 possam através do atuador, no caso o relé desligar a luz e fechar ou abrir o portão. Também por usar o sensor de proximidade

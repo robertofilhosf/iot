@@ -69,10 +69,8 @@ void loop() {
     
     humidity = dht.readHumidity(); 
 
-    //client.publish(TOPIC_PUBLISH_TEMPERATURE, String(temperatureValue).c_str());
-    //client.publish(TOPIC_PUBLISH_HUMIDITY, String(humidity).c_str());
-    client.publish(TOPIC_PUBLISH_HUMIDITY, "30.5");
-    client.publish(TOPIC_PUBLISH_TEMPERATURE, "28.6");
+    client.publish(TOPIC_PUBLISH_TEMPERATURE, String(temperatureValue).c_str());
+    client.publish(TOPIC_PUBLISH_HUMIDITY, String(humidity).c_str());
   }
 }
 

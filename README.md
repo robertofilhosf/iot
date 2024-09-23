@@ -40,6 +40,10 @@ O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o br
 nos tópicos "IFPB/Iot/Projeto.Garagem/Temperatura" e "IFPB/Iot/Projeto.Garagem/Umidade", para que possa ser acompanhado
 de perto pelo App Mobile.
 
+Esquemático elétrico
+
+![Nó de temperatura e Umidade](./image/esquematico_no_temp_umid.PNG)
+
 ## Implementação do nó do Portão
 
 O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/iot/blob/main/codigos/portaoLuz.c)  

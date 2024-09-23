@@ -23,7 +23,6 @@ Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplic
 ### Protocolo: MQTT (Message Queuing Telemetry Transport)
 Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e assíncrona.
 ### Microcontrolador: ESP32
-## Aplicação: ESP RainMaker
 
 ### Equipe: 
 - Ismael Marinho - firespin147@gmail.com

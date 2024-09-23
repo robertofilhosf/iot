@@ -14,10 +14,9 @@
 #define PORT 1883
 #define ID_MQTT "Projeto-Garagem"
 
-//const char* ssid = "ismaels";
-//const char* password = "876543210";
-const char* ssid = "brisa-603071";
-const char* password = "xz4iv3wb";
+const char* ssid = "ismaels";
+const char* password = "876543210";
+
 const char* mqttServer = "broker.emqx.io";
 
 // WiFi/MQTT client 

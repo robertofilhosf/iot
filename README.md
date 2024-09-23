@@ -52,7 +52,7 @@ O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/
 
 Esquemático elétrico
 
-![Nó do portão e luz](./image/esquematico_no_temp_umid.PNG)
+![Nó do portão e luz](./image/esquematico_no_portao.PNG)
 
 O Código consiste em criar uma conexão wifi, e se comunicar via MQTT para o broker no caso o "broker.emqx.io", e receber
 através dos tópicos "IFPB/Iot/Projeto.Garagem/Atuador.Portao" e  "IFPB/Iot/Projeto.Garagem/Luz", e por eles

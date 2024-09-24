@@ -33,7 +33,7 @@ Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e ass�
 - Lavoisier Chaves - lavoisier.ramos@academico.ifpb.edu.br
 
 ## Simulação
-
+[Simulação]([https://github.com/robertofilhosf/iot/blob/main/codigos/portaoLuz.c](https://youtu.be/5OKvB8_wKiQ))  
 
 ## Implementação do nó de Temperatura e Humidade
 

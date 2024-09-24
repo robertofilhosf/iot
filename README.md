@@ -9,7 +9,7 @@ Automatizar a abertura e o fechamento de um portão de garagem que, através de 
 - Controle de abertura
 - Enviar informações do estado do portão para a plataforma
 - Acender ou apagar a luz da garagem
-- receber informações de temperatura do ambiente
+- Receber informações de temperatura do ambiente
 
 ### Controla: Fluxo de entrada e saída da garagem.
 ### Monitoria: Estado do portão (aberto/fechado), com segurança.

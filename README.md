@@ -15,10 +15,11 @@ Automatizar a abertura e o fechamento de um portão de garagem que, através de 
 Seria interligado um servidor central via wi-fi, onde se comunicaria com a aplicação, facilitando o monitoramento e o controle do dispostivo IoT.  
 <img src="./image/arquitetura.png" alt="arquiteture" width="600"/>
 ### Lista de Dispositivos IoT
-- Sensor de abertura de porta
-- Atuador de contato seco
-- Sensor de movimento
-- ESP32
+- 1 Atuador de contato seco (abertura de portão)
+- 1 Atuador de contato seco (acender luz)
+- 1 Sensor de movimento (ultrassonico)
+- 2 ESP32
+- 1 Sensor de temperatura/umidade
 
 ### Protocolo: MQTT (Message Queuing Telemetry Transport)
 Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e assíncrona.

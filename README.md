@@ -32,6 +32,9 @@ Facilitar a troca de mensagens entre dispositivos IoT de forma confiável e ass�
 - José Roberto - ferreira.roberto@academico.ifpb.edu.br
 - Lavoisier Chaves - lavoisier.ramos@academico.ifpb.edu.br
 
+## Simulação
+
+
 ## Implementação do nó de Temperatura e Humidade
 
 O código utilizado foi o seguinte: [Código](https://github.com/robertofilhosf/iot/blob/main/codigos/temperaturaHumidade.c)  
